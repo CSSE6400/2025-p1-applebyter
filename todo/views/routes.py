@@ -13,9 +13,9 @@ def get_todos():
         "title": "Watch CSSE6400 Lecture",
         "description": "Watch the CSSE6400 lecture on ECHO360 for week 1",
         "completed": True,
-        "deadline_at": "2023-02-27T00:00:00",
-        "created_at": "2023-02-20T00:00:00",
-        "updated_at": "2023-02-20T00:00:00"
+        "deadline_at": "2026-02-27T18:00:00",
+        "created_at": "2026-02-20T16:00:00",
+        "updated_at": "2026-02-20T16:00:00"
     }])
 
 @api.route('/todos/<int:id>', methods=['GET'])
@@ -25,9 +25,9 @@ def get_todo(id):
         "title": "Watch CSSE6400 Lecture",
         "description": "Watch the CSSE6400 lecture on ECHO360 for week 1",
         "completed": True,
-        "deadline_at": "2023-02-27T00:00:00",
-        "created_at": "2023-02-20T00:00:00",
-        "updated_at": "2023-02-20T00:00:00"
+        "deadline_at": "2026-02-27T18:00:00",
+        "created_at": "2026-02-20T16:00:00",
+        "updated_at": "2026-02-20T16:00:00"
     })
 
 @api.route('/todos', methods=['POST'])
@@ -37,9 +37,9 @@ def create_todo():
         "title": "Watch CSSE6400 Lecture",
         "description": "Watch the CSSE6400 lecture on ECHO360 for week 1",
         "completed": True,
-        "deadline_at": "2023-02-27T00:00:00",
-        "created_at": "2023-02-20T00:00:00",
-        "updated_at": "2023-02-20T00:00:00"
+        "deadline_at": "2026-02-27T18:00:00",
+        "created_at": "2026-02-20T16:00:00",
+        "updated_at": "2026-02-20T16:00:00"
     }), 201
 
 @api.route('/todos/<int:id>', methods=['PUT'])
@@ -49,9 +49,9 @@ def update_todo(id):
         "title": "Watch CSSE6400 Lecture",
         "description": "Watch the CSSE6400 lecture on ECHO360 for week 1",
         "completed": True,
-        "deadline_at": "2023-02-27T00:00:00",
-        "created_at": "2023-02-20T00:00:00",
-        "updated_at": "2023-02-20T00:00:00"
+        "deadline_at": "2026-02-27T18:00:00",
+        "created_at": "2026-02-20T16:00:00",
+        "updated_at": "2026-02-20T16:00:00"
     })
 
 @api.route('/todos/<int:id>', methods=['DELETE'])
@@ -61,7 +61,7 @@ def delete_todo(id):
         "title": "Watch CSSE6400 Lecture",
         "description": "Watch the CSSE6400 lecture on ECHO360 for week 1",
         "completed": True,
-        "deadline_at": "2023-02-27T00:00:00",
-        "created_at": "2023-02-20T00:00:00",
-        "updated_at": "2023-02-20T00:00:00"
+        "deadline_at": "2026-02-27T18:00:00",
+        "created_at": "2026-02-20T16:00:00",
+        "updated_at": "2026-02-20T16:00:00"
     })
